@@ -8,7 +8,7 @@ data = {
 }
 
 json_data = json.dumps(data)
-# print(json_data)
+print(json_data)
 data_out = json.loads(json_data)
 # print(data_out)
 assert data == data_out
